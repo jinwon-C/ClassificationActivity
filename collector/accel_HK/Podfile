@@ -1,0 +1,37 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'accel_HK' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for accel_HK
+  pod 'SwiftSocket'
+
+  target 'accel_HKTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'accel_HKUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'accel_HK WatchKit App' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for accel_HK WatchKit App
+
+end
+
+target 'accel_HK WatchKit Extension' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for accel_HK WatchKit Extension
+
+end

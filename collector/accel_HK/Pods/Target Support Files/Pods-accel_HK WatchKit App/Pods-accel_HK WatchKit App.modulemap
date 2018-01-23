@@ -1,0 +1,6 @@
+framework module Pods_accel_HK_WatchKit_App {
+  umbrella header "Pods-accel_HK WatchKit App-umbrella.h"
+
+  export *
+  module * { export * }
+}

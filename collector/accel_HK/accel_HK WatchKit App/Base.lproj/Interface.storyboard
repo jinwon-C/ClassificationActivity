@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13771" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13756"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="accel_HK_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="136" height="30" alignment="left" text="---" textAlignment="center" id="lD2-sI-McM"/>
+                        <button width="1" alignment="left" title="Start" id="oV9-Lb-tSJ">
+                            <connections>
+                                <action selector="sendMessage_ToiPhone" destination="AgC-eL-Hgc" id="mJp-q6-S4r"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Connect" id="HeP-D6-cbp">
+                            <connections>
+                                <action selector="ConnectButton" destination="AgC-eL-Hgc" id="ssw-wH-SjP"/>
+                            </connections>
+                        </button>
+                        <label alignment="left" text="---" id="8Jm-So-QbS"/>
+                    </items>
+                    <connections>
+                        <outlet property="BPM" destination="8Jm-So-QbS" id="oQI-co-9hv"/>
+                        <outlet property="Connect_btn" destination="HeP-D6-cbp" id="qKu-co-tHn"/>
+                        <outlet property="Error_Handler" destination="lD2-sI-McM" id="wSD-vC-cWb"/>
+                        <outlet property="sensor_Btn" destination="oV9-Lb-tSJ" id="lUD-RC-sPT"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="387" y="369"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,1186 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A3E66831FFCC4CF00AC15B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E66821FFCC4CF00AC15B8 /* AppDelegate.swift */; };
+		1A3E66851FFCC4CF00AC15B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E66841FFCC4CF00AC15B8 /* ViewController.swift */; };
+		1A3E66881FFCC4CF00AC15B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E66861FFCC4CF00AC15B8 /* Main.storyboard */; };
+		1A3E668A1FFCC4CF00AC15B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E66891FFCC4CF00AC15B8 /* Assets.xcassets */; };
+		1A3E668D1FFCC4CF00AC15B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E668B1FFCC4CF00AC15B8 /* LaunchScreen.storyboard */; };
+		1A3E66981FFCC4CF00AC15B8 /* accel_HKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E66971FFCC4CF00AC15B8 /* accel_HKTests.swift */; };
+		1A3E66A31FFCC4D000AC15B8 /* accel_HKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E66A21FFCC4D000AC15B8 /* accel_HKUITests.swift */; };
+		1A3E66A81FFCC4D000AC15B8 /* accel_HK WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1A3E66A71FFCC4D000AC15B8 /* accel_HK WatchKit App.app */; };
+		1A3E66AE1FFCC4D000AC15B8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E66AC1FFCC4D000AC15B8 /* Interface.storyboard */; };
+		1A3E66B01FFCC4D000AC15B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E66AF1FFCC4D000AC15B8 /* Assets.xcassets */; };
+		1A3E66B71FFCC4D000AC15B8 /* accel_HK WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1A3E66B61FFCC4D000AC15B8 /* accel_HK WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1A3E66BC1FFCC4D000AC15B8 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E66BB1FFCC4D000AC15B8 /* InterfaceController.swift */; };
+		1A3E66BE1FFCC4D000AC15B8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E66BD1FFCC4D000AC15B8 /* ExtensionDelegate.swift */; };
+		1A3E66C01FFCC4D000AC15B8 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E66BF1FFCC4D000AC15B8 /* NotificationController.swift */; };
+		1A3E66C21FFCC4D000AC15B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E66C11FFCC4D000AC15B8 /* Assets.xcassets */; };
+		1A3E66D91FFCC63400AC15B8 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3E66D81FFCC63400AC15B8 /* HealthKit.framework */; };
+		1A3E66DD1FFCC63D00AC15B8 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3E66DC1FFCC63D00AC15B8 /* HealthKit.framework */; };
+		2BF3D6832F2F275E9E717945 /* Pods_accel_HK_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D2F4AC07B5140B84E3C49F /* Pods_accel_HK_WatchKit_App.framework */; };
+		2E2FEC6DB75E7B6BE870B090 /* Pods_accel_HKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3218628F66894353C01ABEB /* Pods_accel_HKTests.framework */; };
+		76D2F3EADF49657D2B2B74FB /* Pods_accel_HK_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677BC275AAE7F453AD2F36C4 /* Pods_accel_HK_WatchKit_Extension.framework */; };
+		8D400F818B53BCA79667EBE5 /* Pods_accel_HKUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EBA3E68B5AFAAB263DDA07 /* Pods_accel_HKUITests.framework */; };
+		C9CACB3BF7FCC35EEF08081B /* Pods_accel_HK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EB70C32F03BBC70503A475 /* Pods_accel_HK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A3E66941FFCC4CF00AC15B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A3E66771FFCC4CF00AC15B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A3E667E1FFCC4CF00AC15B8;
+			remoteInfo = accel_HK;
+		};
+		1A3E669F1FFCC4D000AC15B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A3E66771FFCC4CF00AC15B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A3E667E1FFCC4CF00AC15B8;
+			remoteInfo = accel_HK;
+		};
+		1A3E66A91FFCC4D000AC15B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A3E66771FFCC4CF00AC15B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A3E66A61FFCC4D000AC15B8;
+			remoteInfo = "accel_HK WatchKit App";
+		};
+		1A3E66B81FFCC4D000AC15B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A3E66771FFCC4CF00AC15B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A3E66B51FFCC4D000AC15B8;
+			remoteInfo = "accel_HK WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1A3E66CA1FFCC4D000AC15B8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1A3E66B71FFCC4D000AC15B8 /* accel_HK WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3E66CE1FFCC4D000AC15B8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1A3E66A81FFCC4D000AC15B8 /* accel_HK WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09EB70C32F03BBC70503A475 /* Pods_accel_HK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_accel_HK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A775E0C44BBB10A4F0D73F8 /* Pods-accel_HKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-accel_HKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-accel_HKTests/Pods-accel_HKTests.release.xcconfig"; sourceTree = "<group>"; };
+		1058092AE31C5F78638053DD /* Pods-accel_HKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-accel_HKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-accel_HKTests/Pods-accel_HKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13EBA3E68B5AFAAB263DDA07 /* Pods_accel_HKUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_accel_HKUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3E667F1FFCC4CF00AC15B8 /* accel_HK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = accel_HK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3E66821FFCC4CF00AC15B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A3E66841FFCC4CF00AC15B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A3E66871FFCC4CF00AC15B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A3E66891FFCC4CF00AC15B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A3E668C1FFCC4CF00AC15B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A3E668E1FFCC4CF00AC15B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A3E66931FFCC4CF00AC15B8 /* accel_HKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = accel_HKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3E66971FFCC4CF00AC15B8 /* accel_HKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accel_HKTests.swift; sourceTree = "<group>"; };
+		1A3E66991FFCC4CF00AC15B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A3E669E1FFCC4D000AC15B8 /* accel_HKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = accel_HKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3E66A21FFCC4D000AC15B8 /* accel_HKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accel_HKUITests.swift; sourceTree = "<group>"; };
+		1A3E66A41FFCC4D000AC15B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A3E66A71FFCC4D000AC15B8 /* accel_HK WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "accel_HK WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3E66AD1FFCC4D000AC15B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1A3E66AF1FFCC4D000AC15B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A3E66B11FFCC4D000AC15B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A3E66B61FFCC4D000AC15B8 /* accel_HK WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "accel_HK WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3E66BB1FFCC4D000AC15B8 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1A3E66BD1FFCC4D000AC15B8 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1A3E66BF1FFCC4D000AC15B8 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1A3E66C11FFCC4D000AC15B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A3E66C31FFCC4D000AC15B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A3E66C41FFCC4D000AC15B8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1A3E66D81FFCC63400AC15B8 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		1A3E66DA1FFCC63400AC15B8 /* accel_HK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = accel_HK.entitlements; sourceTree = "<group>"; };
+		1A3E66DB1FFCC63D00AC15B8 /* accel_HK WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "accel_HK WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		1A3E66DC1FFCC63D00AC15B8 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		2B6E9DF7DF7BF55515755AEB /* Pods-accel_HKUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-accel_HKUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-accel_HKUITests/Pods-accel_HKUITests.release.xcconfig"; sourceTree = "<group>"; };
+		677BC275AAE7F453AD2F36C4 /* Pods_accel_HK_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_accel_HK_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		750573A2C9F2E58E41C6DDFC /* Pods-accel_HK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-accel_HK.release.xcconfig"; path = "Pods/Target Support Files/Pods-accel_HK/Pods-accel_HK.release.xcconfig"; sourceTree = "<group>"; };
+		811879C1DC1C9D8C65E23E74 /* Pods-accel_HK WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-accel_HK WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-accel_HK WatchKit Extension/Pods-accel_HK WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		89E5EB518FA81488E8C89C5A /* Pods-accel_HK WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-accel_HK WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-accel_HK WatchKit App/Pods-accel_HK WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		9EC6CD30C8A577E543150A84 /* Pods-accel_HKUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-accel_HKUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-accel_HKUITests/Pods-accel_HKUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3181BDDA9D2EC0B26CDEB2B /* Pods-accel_HK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-accel_HK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-accel_HK/Pods-accel_HK.debug.xcconfig"; sourceTree = "<group>"; };
+		D5FF3DCF98FD7DDB94C0079F /* Pods-accel_HK WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-accel_HK WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-accel_HK WatchKit Extension/Pods-accel_HK WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		E0E90FAD97C4B1283D9F26C0 /* Pods-accel_HK WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-accel_HK WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-accel_HK WatchKit App/Pods-accel_HK WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		E3218628F66894353C01ABEB /* Pods_accel_HKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_accel_HKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D2F4AC07B5140B84E3C49F /* Pods_accel_HK_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_accel_HK_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A3E667C1FFCC4CF00AC15B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CACB3BF7FCC35EEF08081B /* Pods_accel_HK.framework in Frameworks */,
+				1A3E66D91FFCC63400AC15B8 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3E66901FFCC4CF00AC15B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2FEC6DB75E7B6BE870B090 /* Pods_accel_HKTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3E669B1FFCC4D000AC15B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D400F818B53BCA79667EBE5 /* Pods_accel_HKUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3E66B31FFCC4D000AC15B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D2F3EADF49657D2B2B74FB /* Pods_accel_HK_WatchKit_Extension.framework in Frameworks */,
+				1A3E66DD1FFCC63D00AC15B8 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB219061BACA89E50C1A9F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF3D6832F2F275E9E717945 /* Pods_accel_HK_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A3E66761FFCC4CF00AC15B8 = {
+			isa = PBXGroup;
+			children = (
+				1A3E66811FFCC4CF00AC15B8 /* accel_HK */,
+				1A3E66961FFCC4CF00AC15B8 /* accel_HKTests */,
+				1A3E66A11FFCC4D000AC15B8 /* accel_HKUITests */,
+				1A3E66AB1FFCC4D000AC15B8 /* accel_HK WatchKit App */,
+				1A3E66BA1FFCC4D000AC15B8 /* accel_HK WatchKit Extension */,
+				1A3E66801FFCC4CF00AC15B8 /* Products */,
+				EC0182B4CA6A4FDF054EDF1D /* Pods */,
+				A431EDA050BD6FCE932E3FD1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A3E66801FFCC4CF00AC15B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A3E667F1FFCC4CF00AC15B8 /* accel_HK.app */,
+				1A3E66931FFCC4CF00AC15B8 /* accel_HKTests.xctest */,
+				1A3E669E1FFCC4D000AC15B8 /* accel_HKUITests.xctest */,
+				1A3E66A71FFCC4D000AC15B8 /* accel_HK WatchKit App.app */,
+				1A3E66B61FFCC4D000AC15B8 /* accel_HK WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A3E66811FFCC4CF00AC15B8 /* accel_HK */ = {
+			isa = PBXGroup;
+			children = (
+				1A3E66DA1FFCC63400AC15B8 /* accel_HK.entitlements */,
+				1A3E66821FFCC4CF00AC15B8 /* AppDelegate.swift */,
+				1A3E66841FFCC4CF00AC15B8 /* ViewController.swift */,
+				1A3E66861FFCC4CF00AC15B8 /* Main.storyboard */,
+				1A3E66891FFCC4CF00AC15B8 /* Assets.xcassets */,
+				1A3E668B1FFCC4CF00AC15B8 /* LaunchScreen.storyboard */,
+				1A3E668E1FFCC4CF00AC15B8 /* Info.plist */,
+			);
+			path = accel_HK;
+			sourceTree = "<group>";
+		};
+		1A3E66961FFCC4CF00AC15B8 /* accel_HKTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A3E66971FFCC4CF00AC15B8 /* accel_HKTests.swift */,
+				1A3E66991FFCC4CF00AC15B8 /* Info.plist */,
+			);
+			path = accel_HKTests;
+			sourceTree = "<group>";
+		};
+		1A3E66A11FFCC4D000AC15B8 /* accel_HKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A3E66A21FFCC4D000AC15B8 /* accel_HKUITests.swift */,
+				1A3E66A41FFCC4D000AC15B8 /* Info.plist */,
+			);
+			path = accel_HKUITests;
+			sourceTree = "<group>";
+		};
+		1A3E66AB1FFCC4D000AC15B8 /* accel_HK WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1A3E66AC1FFCC4D000AC15B8 /* Interface.storyboard */,
+				1A3E66AF1FFCC4D000AC15B8 /* Assets.xcassets */,
+				1A3E66B11FFCC4D000AC15B8 /* Info.plist */,
+			);
+			path = "accel_HK WatchKit App";
+			sourceTree = "<group>";
+		};
+		1A3E66BA1FFCC4D000AC15B8 /* accel_HK WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1A3E66DB1FFCC63D00AC15B8 /* accel_HK WatchKit Extension.entitlements */,
+				1A3E66BB1FFCC4D000AC15B8 /* InterfaceController.swift */,
+				1A3E66BD1FFCC4D000AC15B8 /* ExtensionDelegate.swift */,
+				1A3E66BF1FFCC4D000AC15B8 /* NotificationController.swift */,
+				1A3E66C11FFCC4D000AC15B8 /* Assets.xcassets */,
+				1A3E66C31FFCC4D000AC15B8 /* Info.plist */,
+				1A3E66C41FFCC4D000AC15B8 /* PushNotificationPayload.apns */,
+			);
+			path = "accel_HK WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A431EDA050BD6FCE932E3FD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A3E66DC1FFCC63D00AC15B8 /* HealthKit.framework */,
+				1A3E66D81FFCC63400AC15B8 /* HealthKit.framework */,
+				09EB70C32F03BBC70503A475 /* Pods_accel_HK.framework */,
+				E9D2F4AC07B5140B84E3C49F /* Pods_accel_HK_WatchKit_App.framework */,
+				677BC275AAE7F453AD2F36C4 /* Pods_accel_HK_WatchKit_Extension.framework */,
+				E3218628F66894353C01ABEB /* Pods_accel_HKTests.framework */,
+				13EBA3E68B5AFAAB263DDA07 /* Pods_accel_HKUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC0182B4CA6A4FDF054EDF1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3181BDDA9D2EC0B26CDEB2B /* Pods-accel_HK.debug.xcconfig */,
+				750573A2C9F2E58E41C6DDFC /* Pods-accel_HK.release.xcconfig */,
+				89E5EB518FA81488E8C89C5A /* Pods-accel_HK WatchKit App.debug.xcconfig */,
+				E0E90FAD97C4B1283D9F26C0 /* Pods-accel_HK WatchKit App.release.xcconfig */,
+				D5FF3DCF98FD7DDB94C0079F /* Pods-accel_HK WatchKit Extension.debug.xcconfig */,
+				811879C1DC1C9D8C65E23E74 /* Pods-accel_HK WatchKit Extension.release.xcconfig */,
+				1058092AE31C5F78638053DD /* Pods-accel_HKTests.debug.xcconfig */,
+				0A775E0C44BBB10A4F0D73F8 /* Pods-accel_HKTests.release.xcconfig */,
+				9EC6CD30C8A577E543150A84 /* Pods-accel_HKUITests.debug.xcconfig */,
+				2B6E9DF7DF7BF55515755AEB /* Pods-accel_HKUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A3E667E1FFCC4CF00AC15B8 /* accel_HK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3E66CF1FFCC4D000AC15B8 /* Build configuration list for PBXNativeTarget "accel_HK" */;
+			buildPhases = (
+				D92A6BD8BCFB35765D49E669 /* [CP] Check Pods Manifest.lock */,
+				1A3E667B1FFCC4CF00AC15B8 /* Sources */,
+				1A3E667C1FFCC4CF00AC15B8 /* Frameworks */,
+				1A3E667D1FFCC4CF00AC15B8 /* Resources */,
+				1A3E66CE1FFCC4D000AC15B8 /* Embed Watch Content */,
+				6658B6D8106C11614CB6E645 /* [CP] Embed Pods Frameworks */,
+				8B9093CFDD27B94C43D69BCA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A3E66AA1FFCC4D000AC15B8 /* PBXTargetDependency */,
+			);
+			name = accel_HK;
+			productName = accel_HK;
+			productReference = 1A3E667F1FFCC4CF00AC15B8 /* accel_HK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A3E66921FFCC4CF00AC15B8 /* accel_HKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3E66D21FFCC4D000AC15B8 /* Build configuration list for PBXNativeTarget "accel_HKTests" */;
+			buildPhases = (
+				0AEF33BDA7C8B9F156040E23 /* [CP] Check Pods Manifest.lock */,
+				1A3E668F1FFCC4CF00AC15B8 /* Sources */,
+				1A3E66901FFCC4CF00AC15B8 /* Frameworks */,
+				1A3E66911FFCC4CF00AC15B8 /* Resources */,
+				81F58303F50CEF253C049233 /* [CP] Embed Pods Frameworks */,
+				6670B884FFC2D69E85052A8E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A3E66951FFCC4CF00AC15B8 /* PBXTargetDependency */,
+			);
+			name = accel_HKTests;
+			productName = accel_HKTests;
+			productReference = 1A3E66931FFCC4CF00AC15B8 /* accel_HKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A3E669D1FFCC4D000AC15B8 /* accel_HKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3E66D51FFCC4D000AC15B8 /* Build configuration list for PBXNativeTarget "accel_HKUITests" */;
+			buildPhases = (
+				A076EBE42C6ACFE4425B79F2 /* [CP] Check Pods Manifest.lock */,
+				1A3E669A1FFCC4D000AC15B8 /* Sources */,
+				1A3E669B1FFCC4D000AC15B8 /* Frameworks */,
+				1A3E669C1FFCC4D000AC15B8 /* Resources */,
+				091D8E68072741758770B45E /* [CP] Embed Pods Frameworks */,
+				5B20EF791C6B02E94964DAF6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A3E66A01FFCC4D000AC15B8 /* PBXTargetDependency */,
+			);
+			name = accel_HKUITests;
+			productName = accel_HKUITests;
+			productReference = 1A3E669E1FFCC4D000AC15B8 /* accel_HKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1A3E66A61FFCC4D000AC15B8 /* accel_HK WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3E66CB1FFCC4D000AC15B8 /* Build configuration list for PBXNativeTarget "accel_HK WatchKit App" */;
+			buildPhases = (
+				5C27C0D1FA5C7DC835040B16 /* [CP] Check Pods Manifest.lock */,
+				1A3E66A51FFCC4D000AC15B8 /* Resources */,
+				1A3E66CA1FFCC4D000AC15B8 /* Embed App Extensions */,
+				6CB219061BACA89E50C1A9F3 /* Frameworks */,
+				950429CE40E6E919C1DC798D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A3E66B91FFCC4D000AC15B8 /* PBXTargetDependency */,
+			);
+			name = "accel_HK WatchKit App";
+			productName = "accel_HK WatchKit App";
+			productReference = 1A3E66A71FFCC4D000AC15B8 /* accel_HK WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1A3E66B51FFCC4D000AC15B8 /* accel_HK WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3E66C71FFCC4D000AC15B8 /* Build configuration list for PBXNativeTarget "accel_HK WatchKit Extension" */;
+			buildPhases = (
+				0A04CC04792CE0D3521D1291 /* [CP] Check Pods Manifest.lock */,
+				1A3E66B21FFCC4D000AC15B8 /* Sources */,
+				1A3E66B31FFCC4D000AC15B8 /* Frameworks */,
+				1A3E66B41FFCC4D000AC15B8 /* Resources */,
+				2E5D9BB79C51FAA6A57626CF /* [CP] Embed Pods Frameworks */,
+				751E267A35EE25D0B998E7BD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "accel_HK WatchKit Extension";
+			productName = "accel_HK WatchKit Extension";
+			productReference = 1A3E66B61FFCC4D000AC15B8 /* accel_HK WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A3E66771FFCC4CF00AC15B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = gunuk;
+				TargetAttributes = {
+					1A3E667E1FFCC4CF00AC15B8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					1A3E66921FFCC4CF00AC15B8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A3E667E1FFCC4CF00AC15B8;
+					};
+					1A3E669D1FFCC4D000AC15B8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A3E667E1FFCC4CF00AC15B8;
+					};
+					1A3E66A61FFCC4D000AC15B8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1A3E66B51FFCC4D000AC15B8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes.watchos.extension = {
+								enabled = 1;
+							};
+							com.apple.HealthKit.watchos = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1A3E667A1FFCC4CF00AC15B8 /* Build configuration list for PBXProject "accel_HK" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A3E66761FFCC4CF00AC15B8;
+			productRefGroup = 1A3E66801FFCC4CF00AC15B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A3E667E1FFCC4CF00AC15B8 /* accel_HK */,
+				1A3E66921FFCC4CF00AC15B8 /* accel_HKTests */,
+				1A3E669D1FFCC4D000AC15B8 /* accel_HKUITests */,
+				1A3E66A61FFCC4D000AC15B8 /* accel_HK WatchKit App */,
+				1A3E66B51FFCC4D000AC15B8 /* accel_HK WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A3E667D1FFCC4CF00AC15B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3E668D1FFCC4CF00AC15B8 /* LaunchScreen.storyboard in Resources */,
+				1A3E668A1FFCC4CF00AC15B8 /* Assets.xcassets in Resources */,
+				1A3E66881FFCC4CF00AC15B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3E66911FFCC4CF00AC15B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3E669C1FFCC4D000AC15B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3E66A51FFCC4D000AC15B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3E66B01FFCC4D000AC15B8 /* Assets.xcassets in Resources */,
+				1A3E66AE1FFCC4D000AC15B8 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3E66B41FFCC4D000AC15B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3E66C21FFCC4D000AC15B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		091D8E68072741758770B45E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-accel_HKUITests/Pods-accel_HKUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A04CC04792CE0D3521D1291 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-accel_HK WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0AEF33BDA7C8B9F156040E23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-accel_HKTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E5D9BB79C51FAA6A57626CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-accel_HK WatchKit Extension/Pods-accel_HK WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B20EF791C6B02E94964DAF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-accel_HKUITests/Pods-accel_HKUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C27C0D1FA5C7DC835040B16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-accel_HK WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6658B6D8106C11614CB6E645 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-accel_HK/Pods-accel_HK-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-accel_HK/Pods-accel_HK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6670B884FFC2D69E85052A8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-accel_HKTests/Pods-accel_HKTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		751E267A35EE25D0B998E7BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-accel_HK WatchKit Extension/Pods-accel_HK WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81F58303F50CEF253C049233 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-accel_HKTests/Pods-accel_HKTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B9093CFDD27B94C43D69BCA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-accel_HK/Pods-accel_HK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		950429CE40E6E919C1DC798D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-accel_HK WatchKit App/Pods-accel_HK WatchKit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A076EBE42C6ACFE4425B79F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-accel_HKUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D92A6BD8BCFB35765D49E669 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-accel_HK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A3E667B1FFCC4CF00AC15B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3E66851FFCC4CF00AC15B8 /* ViewController.swift in Sources */,
+				1A3E66831FFCC4CF00AC15B8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3E668F1FFCC4CF00AC15B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3E66981FFCC4CF00AC15B8 /* accel_HKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3E669A1FFCC4D000AC15B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3E66A31FFCC4D000AC15B8 /* accel_HKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3E66B21FFCC4D000AC15B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3E66C01FFCC4D000AC15B8 /* NotificationController.swift in Sources */,
+				1A3E66BE1FFCC4D000AC15B8 /* ExtensionDelegate.swift in Sources */,
+				1A3E66BC1FFCC4D000AC15B8 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A3E66951FFCC4CF00AC15B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A3E667E1FFCC4CF00AC15B8 /* accel_HK */;
+			targetProxy = 1A3E66941FFCC4CF00AC15B8 /* PBXContainerItemProxy */;
+		};
+		1A3E66A01FFCC4D000AC15B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A3E667E1FFCC4CF00AC15B8 /* accel_HK */;
+			targetProxy = 1A3E669F1FFCC4D000AC15B8 /* PBXContainerItemProxy */;
+		};
+		1A3E66AA1FFCC4D000AC15B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A3E66A61FFCC4D000AC15B8 /* accel_HK WatchKit App */;
+			targetProxy = 1A3E66A91FFCC4D000AC15B8 /* PBXContainerItemProxy */;
+		};
+		1A3E66B91FFCC4D000AC15B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A3E66B51FFCC4D000AC15B8 /* accel_HK WatchKit Extension */;
+			targetProxy = 1A3E66B81FFCC4D000AC15B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A3E66861FFCC4CF00AC15B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A3E66871FFCC4CF00AC15B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A3E668B1FFCC4CF00AC15B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A3E668C1FFCC4CF00AC15B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1A3E66AC1FFCC4D000AC15B8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A3E66AD1FFCC4D000AC15B8 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A3E66C51FFCC4D000AC15B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A3E66C61FFCC4D000AC15B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A3E66C81FFCC4D000AC15B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5FF3DCF98FD7DDB94C0079F /* Pods-accel_HK WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "accel_HK WatchKit Extension/accel_HK WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4FAD85V5D;
+				INFOPLIST_FILE = "accel_HK WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gunuk.example.accel-HK.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		1A3E66C91FFCC4D000AC15B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 811879C1DC1C9D8C65E23E74 /* Pods-accel_HK WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "accel_HK WatchKit Extension/accel_HK WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4FAD85V5D;
+				INFOPLIST_FILE = "accel_HK WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gunuk.example.accel-HK.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		1A3E66CC1FFCC4D000AC15B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E5EB518FA81488E8C89C5A /* Pods-accel_HK WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4FAD85V5D;
+				IBSC_MODULE = accel_HK_WatchKit_Extension;
+				INFOPLIST_FILE = "accel_HK WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gunuk.example.accel-HK.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		1A3E66CD1FFCC4D000AC15B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0E90FAD97C4B1283D9F26C0 /* Pods-accel_HK WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4FAD85V5D;
+				IBSC_MODULE = accel_HK_WatchKit_Extension;
+				INFOPLIST_FILE = "accel_HK WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gunuk.example.accel-HK.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		1A3E66D01FFCC4D000AC15B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3181BDDA9D2EC0B26CDEB2B /* Pods-accel_HK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = accel_HK/accel_HK.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4FAD85V5D;
+				INFOPLIST_FILE = accel_HK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gunuk.example.accel-HK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A3E66D11FFCC4D000AC15B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 750573A2C9F2E58E41C6DDFC /* Pods-accel_HK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = accel_HK/accel_HK.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4FAD85V5D;
+				INFOPLIST_FILE = accel_HK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gunuk.example.accel-HK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A3E66D31FFCC4D000AC15B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1058092AE31C5F78638053DD /* Pods-accel_HKTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4FAD85V5D;
+				INFOPLIST_FILE = accel_HKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gunuk.example.accel-HKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/accel_HK.app/accel_HK";
+			};
+			name = Debug;
+		};
+		1A3E66D41FFCC4D000AC15B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A775E0C44BBB10A4F0D73F8 /* Pods-accel_HKTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4FAD85V5D;
+				INFOPLIST_FILE = accel_HKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gunuk.example.accel-HKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/accel_HK.app/accel_HK";
+			};
+			name = Release;
+		};
+		1A3E66D61FFCC4D000AC15B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC6CD30C8A577E543150A84 /* Pods-accel_HKUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4FAD85V5D;
+				INFOPLIST_FILE = accel_HKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gunuk.example.accel-HKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = accel_HK;
+			};
+			name = Debug;
+		};
+		1A3E66D71FFCC4D000AC15B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6E9DF7DF7BF55515755AEB /* Pods-accel_HKUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4FAD85V5D;
+				INFOPLIST_FILE = accel_HKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gunuk.example.accel-HKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = accel_HK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A3E667A1FFCC4CF00AC15B8 /* Build configuration list for PBXProject "accel_HK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3E66C51FFCC4D000AC15B8 /* Debug */,
+				1A3E66C61FFCC4D000AC15B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A3E66C71FFCC4D000AC15B8 /* Build configuration list for PBXNativeTarget "accel_HK WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3E66C81FFCC4D000AC15B8 /* Debug */,
+				1A3E66C91FFCC4D000AC15B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A3E66CB1FFCC4D000AC15B8 /* Build configuration list for PBXNativeTarget "accel_HK WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3E66CC1FFCC4D000AC15B8 /* Debug */,
+				1A3E66CD1FFCC4D000AC15B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A3E66CF1FFCC4D000AC15B8 /* Build configuration list for PBXNativeTarget "accel_HK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3E66D01FFCC4D000AC15B8 /* Debug */,
+				1A3E66D11FFCC4D000AC15B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A3E66D21FFCC4D000AC15B8 /* Build configuration list for PBXNativeTarget "accel_HKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3E66D31FFCC4D000AC15B8 /* Debug */,
+				1A3E66D41FFCC4D000AC15B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A3E66D51FFCC4D000AC15B8 /* Build configuration list for PBXNativeTarget "accel_HKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3E66D61FFCC4D000AC15B8 /* Debug */,
+				1A3E66D71FFCC4D000AC15B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A3E66771FFCC4CF00AC15B8 /* Project object */;
+}
